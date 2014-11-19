@@ -1,0 +1,41 @@
+$textColor: #0000FF;
+$headerFont: Helvetica, sans-serif;
+
+@import "reset";
+@import "type";
+@import "layout";
+
+img {width:100%;}
+
+h1 {color:$textColor; font-family: $headerFont;}
+h2 {color:$textColor; font-family: $headerFont;}
+ul {color:$textColor; text-decoration: underline;}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px;
+    
+    ul {list-style: none;}
+    a	{
+    	text-decoration: none;
+    	color: white;
+    }
+    a:hover	{
+    	text-decoration: underline;
+    }
+    a:visited	{
+    	color: red;
+    }
+}
+
+article {border: 2px solid black;
+		padding: 20px;
+
+    ul {list-style: none;font-size: 1.2em; line-height: 1.5em}
+    ol	{
+    	list-style: none; font-size: 0.8em;
+    }
+
+}
