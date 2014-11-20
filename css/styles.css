@@ -15,11 +15,15 @@ img {
 
 h1 {
   color: #0000FF;
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 h2 {
   color: #0000FF;
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 ul {
   color: #0000FF;
@@ -42,7 +46,9 @@ nav {
 
 article {
   border: 2px solid black;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
   article ul {
     list-style: none;
     font-size: 1.2em;

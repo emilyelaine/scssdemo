@@ -1,5 +1,7 @@
 $textColor: #0000FF;
 $headerFont: Helvetica, sans-serif;
+$headerPadding: 15px;
+
 
 @import "reset";
 @import "type";
@@ -7,9 +9,10 @@ $headerFont: Helvetica, sans-serif;
 
 img {width:100%;}
 
-h1 {color:$textColor; font-family: $headerFont;}
-h2 {color:$textColor; font-family: $headerFont;}
+h1 {color:$textColor; font-family: $headerFont; padding-top: $headerPadding; padding-bottom: $headerPadding;}
+h2 {color:$textColor; font-family: $headerFont; padding-top: $headerPadding; padding-bottom: $headerPadding;}
 ul {color:$textColor; text-decoration: underline;}
+
 
 nav {
     background-color: black;
@@ -32,6 +35,8 @@ nav {
 
 article {border: 2px solid black;
 		padding: 20px;
+		margin-top: $headerPadding;
+		margin-bottom: $headerPadding;
 
     ul {list-style: none;font-size: 1.2em; line-height: 1.5em}
     ol	{
