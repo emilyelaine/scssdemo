@@ -29,18 +29,29 @@ ul {
   color: #0000FF;
   text-decoration: underline; }
 
+header#mainhead h1, footer h1 {
+  text-align: center; }
+header#mainhead h2, footer h2 {
+  text-align: center; }
+header#mainhead ul, footer ul {
+  text-align: center; }
+
 nav {
-  background-color: black;
+  background-color: silver;
   color: white;
   font-size: 1.5em;
   padding: 5px; }
   nav ul {
     list-style: none; }
+    nav ul li {
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px; }
   nav a {
     text-decoration: none;
     color: white; }
   nav a:hover {
-    text-decoration: underline; }
+    color: black; }
   nav a:visited {
     color: red; }
 
