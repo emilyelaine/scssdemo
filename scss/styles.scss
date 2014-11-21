@@ -2,6 +2,7 @@ $textColor: #0000FF;
 $headerFont: Helvetica, sans-serif;
 $headerPadding: 15px;
 $textCenter: center;
+$headerBackground: silver;
 
 
 @import "reset";
@@ -14,21 +15,17 @@ h1 {color:$textColor; font-family: $headerFont; padding-top: $headerPadding; pad
 h2 {color:$textColor; font-family: $headerFont; padding-top: $headerPadding; padding-bottom: $headerPadding;}
 ul {color:$textColor; text-decoration: underline;}
 
-header#mainhead,	footer{
-	h1	{
-		text-align: $textCenter;
-	}
-	h2	{
-		text-align: $textCenter;
-	}
-	ul	{
+header#mainhead, footer{
+	background-color: $headerBackground;
+	border: 3px solid grey;
+	h1, h2, ul	{
 		text-align: $textCenter;
 	}
 }
 
 
 nav {
-    background-color: silver;
+    background-color: $headerBackground;
     color: white;
     font-size: 1.5em;
     padding: 5px;
@@ -51,6 +48,14 @@ nav {
     a:visited	{
     	color: red;
     }
+}
+section	{
+	h1	{
+		padding-bottom: 0px;
+		padding-top: $headerPadding;
+		color: orange;
+		font-size: 2.5em;
+	}
 }
 
 article {border: 2px solid black;
